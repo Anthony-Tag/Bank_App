@@ -1,3 +1,19 @@
 
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+M
+java:S2589&"7Remove this expression which always evaluates to "true"(ªÃÙğ
+]
+java:S1854";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿ8­Ößÿ/
+;
+java:S1659"&Declare "password" on a separate line.(³•ÂV
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­†ï”ÿÿÿÿÿ
+F
+java:S1905"0Remove this unnecessary cast to "BankAppSearch".(±¶›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍôÅÂşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ı§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(…ª¾µ
+X	java:S125"<This block of commented-out lines of code should be removed.(ÿóÁÂ8²Ößÿ/
+]	java:S125"<This block of commented-out lines of code should be removed.(ûê÷±ùÿÿÿÿ8²Ößÿ/
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Úø°|
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+N
+java:S1481",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿ8³Ößÿ/
