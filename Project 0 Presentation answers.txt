@@ -12,6 +12,7 @@ No some of the enter data into the object is repeted but copy and paste and not 
 
 Did you follow the single-responsibility principle?
 
+I think I have followed the single responsibility principle by making a postgres connection object, DOA object to send the SQL commands, but I could make sperate menu print classes but I did not.
 
 Is your code generally readable and maintainable?
 
@@ -19,6 +20,7 @@ Yes I followed naming conventions and every step in the menu is isalated in its 
 
 Are there any formatting issues – commented out code, unfollowed naming conventions, unnecessary blank space, excessive nesting, etc?
 
+I may have a few excessive nested while loops but I wanted the abiliy to fix miss inputs or get out of the code early. I also have a habit of putting weird spaces between lines
 
 Did you handle exceptions and errors gracefully?
 
@@ -30,4 +32,4 @@ I have a few hard coded boolean falses so they go into not while loops but most 
 
 Did you make any part of the code too complex when it could have been written more simply?
 
-I probably could have just used a UserDOA class and not the extra employee and customer DOA that I used so I did not need to consantly check who has access to what.
+I probably could have just used a UserDOA class and not the extra employee and customer DOA that I used so I did not need to consantly check who has access to what. (Going over my code I decided to take out the employee and cusomer DOA's for the reasons above and it was just to many objects in the main to deal with)

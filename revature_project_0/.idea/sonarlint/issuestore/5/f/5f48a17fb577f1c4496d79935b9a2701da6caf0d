@@ -1,36 +1,104 @@
 
-W
-java:S2259/"BA "NullPointerException" could be thrown; "user" is nullable here.(‡¡ƒ
-
-N
-java:S4973/"9Use the "equals" method if value comparison was intended.(‡¡ƒ
-
-a
-java:S1128"KRemove this unused import 'jdk.nashorn.internal.runtime.regexp.joni.Regex'.(é÷üˆ
+P
+java:S1141B"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141I"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141R"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141^"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141x"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141‰"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141˜"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141°"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141½"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÔÄ˜
+l	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ„ƒùşÿÿÿÿ
+l	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ„ƒùşÿÿÿÿ
+]
+java:S2259:"BA "NullPointerException" could be thrown; "user" is nullable here.(ÎŸÃ©øÿÿÿÿ
 M
 java:S1854"7Remove this useless assignment to local variable "log".(ı¬‡×
-W
-java:S18540"<Remove this useless assignment to local variable "employee".(çà×Àşÿÿÿÿ
-R
-java:S18542"<Remove this useless assignment to local variable "customer".(©ªåã
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘
+S
+java:S1854#"8Remove this useless assignment to local variable "user".(ÏĞ‚¾ûÿÿÿÿ
+U
+java:S1854J"?Remove this useless assignment to local variable "accountList".(Ú™—°
+i
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 103 to the 15 allowed.(«»÷î
 <
-java:S1659"&Declare "password" on a separate line.(ÑÄ¸‘
+java:S1659"&Declare "password" on a separate line.(Ú¿á
+8
+java:S1659""Declare "logE" on a separate line.(Ú¿á
+?
+java:S1659"$Declare "loginE" on a separate line.(İ»¡¿ıÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(­†ï”ÿÿÿÿÿ
 F
 java:S1905"0Remove this unnecessary cast to "BankAppSearch".(±¶›
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿµ¿­ûÿÿÿÿ
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÍôÅÂşÿÿÿÿ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(ı§
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(…ª¾µ
-M	java:S106("9Replace this use of System.out or System.err by a logger.(Úø°|
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
-S	java:S1065"9Replace this use of System.out or System.err by a logger.(Ú’¤ƒúÿÿÿÿ
-N	java:S106>"9Replace this use of System.out or System.err by a logger.(ô‘Îƒ
-H
-java:S14810"-Remove this unused "employee" local variable.(çà×Àşÿÿÿÿ
-C
-java:S14812"-Remove this unused "customer" local variable.(©ªåã
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÒÅ¡úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(È…ÊÓ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¹Âóøÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ÍôÅÂşÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(Ÿ©Î
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(…ª¾µ
+M	java:S1065"9Replace this use of System.out or System.err by a logger.(Úø°|
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(ßŞ‡Ù
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(­†¬ğùÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(‰å„Ôûÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(Ìíİıÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(½»­
+C	java:S108D")Either remove or fill this block of code.(é–³öûÿÿÿÿ
+M	java:S106K"9Replace this use of System.out or System.err by a logger.(ëı¸w
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(êÂŒĞûÿÿÿÿ
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(³¯…·
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(¾ÃË¢ÿÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(Ã†ùÂùÿÿÿÿ
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(³¯…·
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(ºôÙÑÿÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(­À–›
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(¥‹íÉ
+N	java:S106r"9Replace this use of System.out or System.err by a logger.(¢¡Õ¯
+S	java:S106s"9Replace this use of System.out or System.err by a logger.( Ú¯‘ıÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(İ©ò¬üÿÿÿÿ
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(Ğšï®ÿÿÿÿÿ
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ş˜‡µ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(•Ñß¾
+C	java:S108z")Either remove or fill this block of code.(é–³öûÿÿÿÿ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(ÖöÍ¢
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(–¶î
+O	java:S106"9Replace this use of System.out or System.err by a logger.(óµ¿Ğ
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(—Ò©úÿÿÿÿ
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(¾ÃË¢ÿÿÿÿÿ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(ªöÕŞ
+T	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¢„±¾ûÿÿÿÿ
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(ıãÈıÿÿÿÿ
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(€Ùìı
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(æ£å›şÿÿÿÿ
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106±"9Replace this use of System.out or System.err by a logger.(¢ó–ıÿÿÿÿÿ
+O	java:S106³"9Replace this use of System.out or System.err by a logger.(§¡œÄ
+T	java:S106µ"9Replace this use of System.out or System.err by a logger.(®øíˆøÿÿÿÿ
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+O	java:S106¾"9Replace this use of System.out or System.err by a logger.(ûİöä
+O	java:S106À"9Replace this use of System.out or System.err by a logger.(ûÅè 
+O	java:S106Â"9Replace this use of System.out or System.err by a logger.(…½Ã·
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+O	java:S106Ë"9Replace this use of System.out or System.err by a logger.(êŸş
+T	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(Ú’¤ƒúÿÿÿÿ
+D	java:S108Ø")Either remove or fill this block of code.(ĞùÌ“úÿÿÿÿ
+O	java:S106Û"9Replace this use of System.out or System.err by a logger.(ô‘Îƒ
+F
+java:S1481J"0Remove this unused "accountList" local variable.(Ú™—°
 >
 java:S1481"(Remove this unused "log" local variable.(ı¬‡×
