@@ -220,7 +220,7 @@ public class UserDAOImpl implements UserDAO {
         try (Connection connection = PostgresSqlConnection.getConnection()) {
             String sql = "INSERT INTO bank_app.accounts\n" +
                     "(id, account_number, balance, user_id)\n" +
-                    "VALUES(2, ?, ?, ?);";
+                    "VALUES(1, ?, ?, ?);";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, rand.nextInt(1001));
             preparedStatement.setDouble(2, balance);
