@@ -8,15 +8,26 @@ I used Singleton for my connection to my AWS so there is only one thing in my pr
 
 Did you follow the DRY principle? Or are there duplicate parts of the codebase you could refactor?
 
+No some of the enter data into the object is repeted but copy and paste and not wanting to make another class just to fill objects made me just go with the templete from class
 
 Did you follow the single-responsibility principle?
 
+
 Is your code generally readable and maintainable?
+
+Yes I followed naming conventions and every step in the menu is isalated in its own while loop so you are able to find which part of the code you need and go deeper with calling classes from there.
 
 Are there any formatting issues – commented out code, unfollowed naming conventions, unnecessary blank space, excessive nesting, etc?
 
+
 Did you handle exceptions and errors gracefully?
+
+Yes I made my own Exception to be used with throw named BankExeption and used try catch any time I needed to access the AWS
 
 Did you hard-code values or did you externalize and make them configurable?
 
+I have a few hard coded boolean falses so they go into not while loops but most are configurable.
+
 Did you make any part of the code too complex when it could have been written more simply?
+
+I probably could have just used a UserDOA class and not the extra employee and customer DOA that I used so I did not need to consantly check who has access to what.
