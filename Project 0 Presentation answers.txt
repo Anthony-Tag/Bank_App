@@ -1,0 +1,22 @@
+What programming paradigm(s) did you use? Can you provide examples?
+
+Object-Oriented is used because I have classes calling classes 3 levels deep like when I use the loginUser() calls BankAppSeach then the UserDAO for interacting with my DataBase and PostgresSqlConnection to be a singleton that just starts the connection with my AWS and finaly the encapculated User class that only has getters and setters
+
+What design patterns did you use?
+
+I used Singleton for my connection to my AWS so there is only one thing in my program interacting with my database. I am also using the Builder in my DAO classes so they get the information from the database and fills in the object or list of objects that are needed.
+
+Did you follow the DRY principle? Or are there duplicate parts of the codebase you could refactor?
+
+
+Did you follow the single-responsibility principle?
+
+Is your code generally readable and maintainable?
+
+Are there any formatting issues – commented out code, unfollowed naming conventions, unnecessary blank space, excessive nesting, etc?
+
+Did you handle exceptions and errors gracefully?
+
+Did you hard-code values or did you externalize and make them configurable?
+
+Did you make any part of the code too complex when it could have been written more simply?

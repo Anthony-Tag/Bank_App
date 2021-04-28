@@ -1,19 +1,36 @@
 
-M
-java:S2589&"7Remove this expression which always evaluates to "true"(ªÃÙğ
-]
-java:S1854";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿ8­Ößÿ/
-;
-java:S1659"&Declare "password" on a separate line.(³•ÂV
-S	java:S106"9Replace this use of System.out or System.err by a logger.(­†ï”ÿÿÿÿÿ
-F
-java:S1905"0Remove this unnecessary cast to "BankAppSearch".(±¶›
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍôÅÂşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ı§
-N	java:S106"9Replace this use of System.out or System.err by a logger.(…ª¾µ
-X	java:S125"<This block of commented-out lines of code should be removed.(ÿóÁÂ8²Ößÿ/
-]	java:S125"<This block of commented-out lines of code should be removed.(ûê÷±ùÿÿÿÿ8²Ößÿ/
-M	java:S106"9Replace this use of System.out or System.err by a logger.(Úø°|
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+W
+java:S2259/"BA "NullPointerException" could be thrown; "user" is nullable here.(‡¡ƒ
+
 N
-java:S1481",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿ8³Ößÿ/
+java:S4973/"9Use the "equals" method if value comparison was intended.(‡¡ƒ
+
+a
+java:S1128"KRemove this unused import 'jdk.nashorn.internal.runtime.regexp.joni.Regex'.(é÷üˆ
+M
+java:S1854"7Remove this useless assignment to local variable "log".(ı¬‡×
+W
+java:S18540"<Remove this useless assignment to local variable "employee".(çà×Àşÿÿÿÿ
+R
+java:S18542"<Remove this useless assignment to local variable "customer".(©ªåã
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘
+<
+java:S1659"&Declare "password" on a separate line.(ÑÄ¸‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­†ï”ÿÿÿÿÿ
+F
+java:S1905"0Remove this unnecessary cast to "BankAppSearch".(±¶›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿµ¿­ûÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÍôÅÂşÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ı§
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(…ª¾µ
+M	java:S106("9Replace this use of System.out or System.err by a logger.(Úø°|
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(Ú’¤ƒúÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ô‘Îƒ
+H
+java:S14810"-Remove this unused "employee" local variable.(çà×Àşÿÿÿÿ
+C
+java:S14812"-Remove this unused "customer" local variable.(©ªåã
+>
+java:S1481"(Remove this unused "log" local variable.(ı¬‡×

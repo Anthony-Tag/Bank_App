@@ -15,13 +15,14 @@ public class UserDAOImpl implements UserDAO {
     public User getUser(String username, String password) throws BankException {
         User user=null;
         try(Connection connection= PostgresSqlConnection.getConnection()) {
-            String sql = "select u.username, u.\"password\", u.id from bank_app.\"user\" u where u.username = ? and u.\"password\" = ?;";
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            String sql = "select u.username, u.\"password\", u.id from bank_app.\"user\" u where u.username = ? and u.\"password\"= ?;";
+            PreparedStatement preparedStatement=connection.prepareStatement(sql);
             preparedStatement.setString(1,username);
             preparedStatement.setString(2,password);
 
             ResultSet resultSet=preparedStatement.executeQuery();
             if (resultSet.next()){
+                user=new User();
                 user.setUsername(resultSet.getString("username"));
                 user.setPassword(resultSet.getString("password"));
                 user.setId(resultSet.getInt("id"));
